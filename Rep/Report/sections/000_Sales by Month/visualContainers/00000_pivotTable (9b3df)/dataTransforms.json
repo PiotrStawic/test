@@ -1,0 +1,169 @@
+{
+  "objects": {
+    "grid": [
+      {
+        "properties": {
+          "textSize": {
+            "expr": {
+              "Literal": {
+                "Value": "12D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "subTotals": [
+      {
+        "properties": {
+          "rowSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "columnSubtotals": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Values": [
+      0
+    ],
+    "Rows": [
+      2
+    ],
+    "Columns": [
+      1
+    ]
+  },
+  "projectionActiveItems": {
+    "Rows": [
+      {
+        "queryRef": "Date.Month",
+        "suppressConcat": false
+      }
+    ],
+    "Columns": [
+      {
+        "queryRef": "Time Intelligence.Time Calc",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Sales Amount",
+        "Name": "Sales.Sales Amount",
+        "Type": 1
+      },
+      {
+        "Restatement": "Time Calc",
+        "Name": "Time Intelligence.Time Calc",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Month",
+        "Name": "Date.Month",
+        "Type": 2048
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "Rows",
+          "Projection": 2,
+          "isActive": true
+        },
+        {
+          "Name": "Columns",
+          "Projection": 1,
+          "isActive": true
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Sales Amount",
+      "queryName": "Sales.Sales Amount",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Sales"
+            }
+          },
+          "Property": "Sales Amount"
+        }
+      }
+    },
+    {
+      "displayName": "Time Calc",
+      "queryName": "Time Intelligence.Time Calc",
+      "roles": {
+        "Columns": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Time Intelligence"
+            }
+          },
+          "Property": "Time Calc"
+        }
+      }
+    },
+    {
+      "displayName": "Month",
+      "queryName": "Date.Month",
+      "roles": {
+        "Rows": true
+      },
+      "sort": 1,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Date"
+            }
+          },
+          "Property": "Month"
+        }
+      }
+    }
+  ]
+}

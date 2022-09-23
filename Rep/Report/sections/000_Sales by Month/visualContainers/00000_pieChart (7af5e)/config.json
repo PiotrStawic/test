@@ -1,0 +1,87 @@
+{
+  "name": "7af5e760567b623b4204",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 767.03517587939689,
+        "y": 80.804020100502512,
+        "z": 3001,
+        "width": 512.56281407035169,
+        "height": 457.08542713567834
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "pieChart",
+    "projections": {
+      "Y": [
+        {
+          "queryRef": "Sales.Total Cost"
+        }
+      ],
+      "Category": [
+        {
+          "queryRef": "Product.Category",
+          "active": true
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "Sales",
+          "Type": 0
+        },
+        {
+          "Name": "p",
+          "Entity": "Product",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Total Cost"
+          },
+          "Name": "Sales.Total Cost"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "p"
+              }
+            },
+            "Property": "Category"
+          },
+          "Name": "Product.Category"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 2,
+          "Expression": {
+            "Measure": {
+              "Expression": {
+                "SourceRef": {
+                  "Source": "s"
+                }
+              },
+              "Property": "Total Cost"
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "hasDefaultSort": true
+  }
+}

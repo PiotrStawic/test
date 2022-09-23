@@ -1,0 +1,16 @@
+{
+  "name": "Birth Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Birth Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    }
+  ]
+}

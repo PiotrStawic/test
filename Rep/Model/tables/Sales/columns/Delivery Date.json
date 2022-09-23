@@ -1,0 +1,14 @@
+{
+  "name": "Delivery Date",
+  "dataType": "dateTime",
+  "isHidden": true,
+  "sourceColumn": "Delivery Date",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 408.36148874228763
+          },
+          "nodeIndex": "Customer",
+          "size": {
+            "height": 337,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 649.06113712852573,
+            "y": 376.99999999999994
+          },
+          "nodeIndex": "Date",
+          "size": {
+            "height": 337,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 613.29501620218059,
+            "y": -5.6843418860808015E-14
+          },
+          "nodeIndex": "Product",
+          "size": {
+            "height": 337,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 49.605049749387376,
+            "y": 102.56469950742166
+          },
+          "nodeIndex": "Promotion",
+          "size": {
+            "height": 251,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 323.60504974938738,
+            "y": 267.91371727343108
+          },
+          "nodeIndex": "Sales",
+          "size": {
+            "height": 337,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 256.71878441408262,
+            "y": 714.68373360690339
+          },
+          "nodeIndex": "Store",
+          "size": {
+            "height": 337,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 929.7,
+            "y": 0
+          },
+          "nodeIndex": "Time Intelligence",
+          "size": {
+            "height": 137,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1210.3,
+            "y": 0
+          },
+          "nodeIndex": "Metric",
+          "size": {
+            "height": 137,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

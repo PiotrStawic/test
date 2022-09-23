@@ -1,0 +1,14 @@
+{
+  "name": "Order Date",
+  "dataType": "dateTime",
+  "isHidden": true,
+  "sourceColumn": "Order Date",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
